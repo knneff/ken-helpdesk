@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 
-
 async function getTickets() {
     const res = await fetch('http://localhost:4000/tickets', {
         next: {
